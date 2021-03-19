@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F3EFC57D6A855666E350C38 /* Pods_TrainingAndDiet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA74B1EFB5B50A8DFBD5228 /* Pods_TrainingAndDiet.framework */; };
+		934146FD25FF7EB8009F7862 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934146FC25FF7EB8009F7862 /* TrainingViewController.swift */; };
+		9341470025FF7EE4009F7862 /* NutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934146FF25FF7EE4009F7862 /* NutritionViewController.swift */; };
 		93488A4125FA58CB00BA142C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93488A4025FA58CB00BA142C /* User.swift */; };
 		93488A4525FA663800BA142C /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93488A4425FA663800BA142C /* SignUp.storyboard */; };
 		93488A4825FA667600BA142C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93488A4725FA667600BA142C /* AlertViewController.swift */; };
@@ -17,10 +19,16 @@
 		935041C225FA1BA80032555F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935041C025FA1BA80032555F /* Main.storyboard */; };
 		935041C425FA1BAA0032555F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935041C325FA1BAA0032555F /* Assets.xcassets */; };
 		935041C725FA1BAA0032555F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935041C525FA1BAA0032555F /* LaunchScreen.storyboard */; };
+		9352C88A26034D9400378D56 /* SetDietOrTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9352C88926034D9400378D56 /* SetDietOrTraining.swift */; };
+		9352C88E2603A63E00378D56 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9352C88D2603A63E00378D56 /* ColorExtension.swift */; };
+		9388CB9225FF521E004C9B2D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB9125FF521E004C9B2D /* HomePageViewController.swift */; };
+		9388CB9525FF6B42004C9B2D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB9425FF6B42004C9B2D /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B58BB8D68A419E8EA4E4C7E /* Pods-TrainingAndDiet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingAndDiet.release.xcconfig"; path = "Target Support Files/Pods-TrainingAndDiet/Pods-TrainingAndDiet.release.xcconfig"; sourceTree = "<group>"; };
+		934146FC25FF7EB8009F7862 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		934146FF25FF7EE4009F7862 /* NutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionViewController.swift; sourceTree = "<group>"; };
 		93488A4025FA58CB00BA142C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		93488A4425FA663800BA142C /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		93488A4725FA667600BA142C /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +40,10 @@
 		935041C325FA1BAA0032555F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935041C625FA1BAA0032555F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		935041C825FA1BAA0032555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9352C88926034D9400378D56 /* SetDietOrTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDietOrTraining.swift; sourceTree = "<group>"; };
+		9352C88D2603A63E00378D56 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		9388CB9125FF521E004C9B2D /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		9388CB9425FF6B42004C9B2D /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		AAA74B1EFB5B50A8DFBD5228 /* Pods_TrainingAndDiet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingAndDiet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06AE03D2818654AADDB2F0C /* Pods-TrainingAndDiet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingAndDiet.debug.xcconfig"; path = "Target Support Files/Pods-TrainingAndDiet/Pods-TrainingAndDiet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +81,11 @@
 			children = (
 				935041BE25FA1BA80032555F /* OpenPageController.swift */,
 				93488A4725FA667600BA142C /* AlertViewController.swift */,
+				9388CB9125FF521E004C9B2D /* HomePageViewController.swift */,
+				9388CB9425FF6B42004C9B2D /* CustomTabBarController.swift */,
+				934146FC25FF7EB8009F7862 /* TrainingViewController.swift */,
+				934146FF25FF7EE4009F7862 /* NutritionViewController.swift */,
+				9352C88926034D9400378D56 /* SetDietOrTraining.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -94,6 +111,7 @@
 		935041B925FA1BA80032555F /* TrainingAndDiet */ = {
 			isa = PBXGroup;
 			children = (
+				9352C88C2603A62B00378D56 /* Extensions */,
 				93488A3F25FA58B200BA142C /* Models */,
 				934D89CE25FA45BF004DC5CD /* ViewControllers */,
 				935041BA25FA1BA80032555F /* AppDelegate.swift */,
@@ -105,6 +123,14 @@
 				93488A4425FA663800BA142C /* SignUp.storyboard */,
 			);
 			path = TrainingAndDiet;
+			sourceTree = "<group>";
+		};
+		9352C88C2603A62B00378D56 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9352C88D2603A63E00378D56 /* ColorExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D4FBF854A2CE395A42102731 /* Pods */ = {
@@ -232,9 +258,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				93488A4125FA58CB00BA142C /* User.swift in Sources */,
+				9388CB9525FF6B42004C9B2D /* CustomTabBarController.swift in Sources */,
+				934146FD25FF7EB8009F7862 /* TrainingViewController.swift in Sources */,
+				9341470025FF7EE4009F7862 /* NutritionViewController.swift in Sources */,
 				935041BF25FA1BA80032555F /* OpenPageController.swift in Sources */,
+				9388CB9225FF521E004C9B2D /* HomePageViewController.swift in Sources */,
 				935041BB25FA1BA80032555F /* AppDelegate.swift in Sources */,
+				9352C88A26034D9400378D56 /* SetDietOrTraining.swift in Sources */,
 				93488A4825FA667600BA142C /* AlertViewController.swift in Sources */,
+				9352C88E2603A63E00378D56 /* ColorExtension.swift in Sources */,
 				935041BD25FA1BA80032555F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

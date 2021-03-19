@@ -16,6 +16,7 @@ class AlertViewController: UIViewController {
 
     var delegate : AlertViewControllerDelegate? 
     
+    
     @IBOutlet weak var cameraButton: LGButton!
     @IBOutlet weak var signUpAlertView: UIView!
     @IBOutlet weak var usernameTextField: UITextField!
@@ -41,6 +42,7 @@ class AlertViewController: UIViewController {
     //Görünmez bir buton. FormViewin dışına tıklandığında dismiss fonksiyonunu çağırıyor.
     @IBAction func dismissSignup(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+        print("görünmez butona basıldı")
         
     }
     //Hesap Oluştur butonu
@@ -53,13 +55,36 @@ class AlertViewController: UIViewController {
             present(alert, animated: true, completion: nil)
             return
         }
-        let user = User(username: usernameTextField.text!, password: passwordTextField.text!,mail : mailTextField.text!)
         let defaults = UserDefaults.standard
-        defaults.object(forKey: "user") as? User
+        let user = User(username: usernameTextField.text!, password: passwordTextField.text!,mail : mailTextField.text!)
+        //bu array cihaz önbelleğindeki userArrayi getiriyor.Böylece birden fazla user ve gün, user instance içinde saklanabilir halde. Uygulama ilk defa da açılıyor olabilir. if let ve else cümlecikleri bunun için, dikkat edilmeli.
+        if let userArray : Data = defaults.object(forKey: "userArray") as? Data{
+        //burası yeni alınan userı bir satır yukarıdaki arrayin içine atmak için. decode edilmeli data değil user atılacak çünkü.
+        var decodedUserArray = NSKeyedUnarchiver.unarchiveObject(with: userArray) as! [User]
+        //pushlandı
+        decodedUserArray.append(user)
+        //yeni elemana sahip array yeniden encode edildi.
+        let encodedUserArray : Data = try! NSKeyedArchiver.archivedData(withRootObject: decodedUserArray, requiringSecureCoding: false)
+        //defaults içine atıldı.
+        defaults.set(encodedUserArray, forKey: "userArray")
+        }
+        //eğer uygulamaya ilk defa kayıt olunuyorsa burası çalışacak
+        else {
+            var userArray = [User]()
+            userArray.append(user)
+            let encodedUserArray : Data = try! NSKeyedArchiver.archivedData(withRootObject: userArray, requiringSecureCoding: false)
+            defaults.set(encodedUserArray, forKey: "userArray")
+            
+        }
         print(user.username!, user.password!)
+        //openpagecontroller bu controllerın delegatesi. burda alınan yeni userdan openpagein haberi var.
         self.delegate?.sendDataBack(data : user)
-        self.dismiss(animated:true, completion:nil)//alınan data gönderilebilir
-        
+        let transition = CATransition()
+        transition.duration = 0.25
+        transition.type = .push
+        transition.subtype = .fromLeft
+        view.window!.layer.add(transition, forKey: "kCATtransition")
+        self.dismiss(animated:false, completion:nil)//alınan data gönderilebilir
     }
     //Kamera Butonu
     @IBAction func cameraButtonTapped(_ sender: LGButton) {

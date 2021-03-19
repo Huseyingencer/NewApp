@@ -3,39 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008B2A13D8D7CA35B9BD70676D147BAD /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB728B89E474B00E040071D645C3A3ED /* themify.ttf */; };
-		06117D18554D3BD2C4D581DD3ED76AD5 /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C87AF22E4D7F5F40D7EE2FEA5BD640 /* FontOpenic.swift */; };
-		0B620FC0E897E491429E1DE603E84842 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DBF80E3539F7FB60745CA4577FACBD9 /* FontAwesome.ttf */; };
-		10CDE1E6E1EB050D376A90122DF596D3 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90F659AA112ACEE8DB189C4BA369B56B /* open-iconic.ttf */; };
-		116FDB8D280B50B3E12CEB7CA626A905 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17DC7C8ABB65E809591ADE9F9AC783 /* FontAwesome.swift */; };
-		158377F7759475572908B0AD1ACDD6E6 /* FontOct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C6C0EAD85E3BBD1A8E4D519109F090 /* FontOct.swift */; };
-		3B2FA2FD0C59AF348BC487EB7C2477AB /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A5C10857AC89D6ABCE3E2D6D24DAF8 /* FontLoader.swift */; };
-		4A76FB7C82C6D27E2218F56EB90F9D28 /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25913690DAC475B37D706CBB01130EAB /* map-icons.ttf */; };
-		4D8C3DD2C233267CC1CB90F8C41A2B60 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0A488336FF126A324A37C67A092EB3 /* Ionicons.ttf */; };
-		559EFA708395041AF9D9F20CB68373DB /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A275B3A285F477A135778BD185B9D6 /* FontMap.swift */; };
-		5DD436522AA643D435BBB56532398C5C /* LGButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BEA02043D5B17C53C06223606AFAFC /* LGButton.xib */; };
-		6C31810069844CE4B90F03EDFF927207 /* Pods-TrainingAndDiet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 124DFDE99D5CB7A80547A0034DA16C97 /* Pods-TrainingAndDiet-dummy.m */; };
-		6F312DB0B6D9FD711696D2C3425E8F41 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB93E2303A4534C18998BCE625B5C3EE /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97AD6F24F3B06BD613C6208F2184E74A /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3F9D4C8D16BB4E89EAB8C267B92982 /* MaterialIcons-Regular.ttf */; };
-		99957B690912720394FD9EA8E64221C5 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF47E6D7656F4D640839100AA599BA /* SwiftIconFont.swift */; };
-		A34A98DD62B110BD2DFAD832FE42DC45 /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB19C5A267935408AE327BBC08BEA817 /* SwiftIconLabel.swift */; };
-		BFB6309660473CE20E1F98165D2190D2 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BCF6138F17B6B8563F296484E55127 /* LGButton-dummy.m */; };
-		C16C9FFF0BBEF2523F89D5CEC3A51CA7 /* FontIon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AD8BAB3D5090AC4A3796F50EB03261 /* FontIon.swift */; };
-		D7C5DEB56E431931836C74EA0446A3DA /* FontThemify.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8D78095FAD13600E3392AAA3FEAE6 /* FontThemify.swift */; };
-		E04E162655F36D1EDAD8F58868BE3447 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA141D1F064A320E34D1DAA818787A5 /* LGButton.swift */; };
-		E91AF13E55A770DBC6913F5D3A4D7731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F2ED4AC1567C9E3D31486B3AB8B9E1CB /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23C6247BD16DBAD5EC89116163EFE74C /* octicons.ttf */; };
-		FA0FB5AA52DE609FFCA1A84D791E37DC /* FontMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4904816F98B5C8B096F4A03AE2F1A071 /* FontMaterial.swift */; };
-		FD3ADF3685DFE93F545B8D50BC7F9112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FDE1BAA8FD4038977D94FC57F62F508B /* Pods-TrainingAndDiet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0E070246E5DF8FBBCB984502B594A4 /* Pods-TrainingAndDiet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		008B2A13D8D7CA35B9BD70676D147BAD /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFE978D0DE0EABC983571C65C0EBE0AF /* themify.ttf */; };
+		06117D18554D3BD2C4D581DD3ED76AD5 /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A4159ABAD157C06F53CB276C3591B /* FontOpenic.swift */; };
+		0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B435FFB226EBCE5BBB9C03749C7CC87 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		083B18F49C35728E9A7B828E73DF2EB8 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 853AD2A14214E47FCE5CF9429844DA42 /* FSCalendarDelegationFactory.m */; };
+		0B620FC0E897E491429E1DE603E84842 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9688A3D15358CFFC345494C3125D8D64 /* FontAwesome.ttf */; };
+		0C880D762097C192F231E5560AF4EE29 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 41941377FE38F60D9393D06BC0CF0163 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4A225B2E9192B1B7C8DFB85B4303AF /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C46B944CC27A33A1A233F8E6D0DA945F /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EDCAFA93DA0E7D98A2CF2386FEAA550 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8E39DFDC0FDA23E5FE397ECD29BF06 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2DEB38F550FF5F643CD48BE324B009 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB002C97000C745EC762327337D9AE3D /* FSCalendarSeparatorDecorationView.m */; };
+		10CDE1E6E1EB050D376A90122DF596D3 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 378967C0E7933CF4A5AB71E89CB9139B /* open-iconic.ttf */; };
+		116FDB8D280B50B3E12CEB7CA626A905 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09FF03FEADC4F8A4CF508BEA44850D5 /* FontAwesome.swift */; };
+		158377F7759475572908B0AD1ACDD6E6 /* FontOct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0EABBDA61C991BE9218D1C953084AC /* FontOct.swift */; };
+		16CAA9FB98D7399C4E7078D3BC1DB71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		1BDE0FED974714A835CB89AD1062FF0D /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B79AF721A1A8C57B451CA9082C6AEB8 /* FSCalendarExtensions.m */; };
+		1E0C257A13260508F9FC03D637764614 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 505E05AB6197D53D7AAC21CDE6BFB30C /* FSCalendarStickyHeader.m */; };
+		1ED6A018A50C929244C03FC6A46670F8 /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E762AAB5606B2A8C4A4C58CEE1C9F152 /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2126BAE2A3A69461E8B00562CFF6D67C /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D12E9E129D249F5F42723FAF61FCB98E /* FSCalendar-dummy.m */; };
+		2E5EC07CFD18A132E57569D00117C703 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4577EC6AADC9E0302CD0BA932A469D /* FSCalendarConstants.m */; };
+		3B2FA2FD0C59AF348BC487EB7C2477AB /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D60233A192531D09B870FFD001A29 /* FontLoader.swift */; };
+		3F0F6CEFD0801BEA64D1A265AE92FC05 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2723491E52C8B95F02A09B01BF3539C6 /* FSCalendarWeekdayView.m */; };
+		487467099AB8229395A1A005DC6AD4F4 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1807D5BA22320E78D0AD747C367243 /* FSCalendarCollectionViewLayout.m */; };
+		48DC50A48CEC3AEC56CB6C3144EF4D47 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657B465F91B52EA2D5C76303110FEAC /* FSCalendarDelegationProxy.m */; };
+		4A76FB7C82C6D27E2218F56EB90F9D28 /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 847A193F27678E84DBC667A5A981C25B /* map-icons.ttf */; };
+		4B06E7A9994CCDB40333001E83F1FD79 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8713BEC22DCB772BDF578C7A1F2F2D86 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B11C48CCA7FD866A774B0E49FB595DA /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 494E2B0DBACE4EFC909DB1C13D9DF1C0 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C79C31591A80E7209E52F0928F7546C /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D8D669FAA88BE821FCE6EB6F0C0748 /* FSCalendarCell.m */; };
+		4D8C3DD2C233267CC1CB90F8C41A2B60 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 705093B639A77D6655321B03D3991214 /* Ionicons.ttf */; };
+		52565719316CADB05B7C8FA79964519A /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A45C0F2B9E21EF811D9677E160568032 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559EFA708395041AF9D9F20CB68373DB /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404F0EB83163D7464BFBC039E1C0DAF1 /* FontMap.swift */; };
+		58AD6758D9237AFCBAE75CF5AA275C47 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 667475256064A8843B5DB2E3CCF86B33 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD436522AA643D435BBB56532398C5C /* LGButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93346C62F9BE7F2EB842CD9D5CFD2B62 /* LGButton.xib */; };
+		6CF04FDA8240D858280268329C2674E9 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDBF865F7CD9C79A038067B4B0FEDD7 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F312DB0B6D9FD711696D2C3425E8F41 /* LGButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2A0324BFDAF55A26DE9858ED43AD66 /* LGButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EAEA451E04E5E96AFE6D1B63313F624 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF708E9D21B5A4B096083DF69CF6A5 /* FSCalendar.m */; };
+		8633C154CEC62F5ECAE687CC7ED8067E /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = C3239A56ABDDA9964544B4242DD99E70 /* FSCalendarAppearance.m */; };
+		8A083C8EB248CD014761924480821862 /* Pods-TrainingAndDiet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 124DFDE99D5CB7A80547A0034DA16C97 /* Pods-TrainingAndDiet-dummy.m */; };
+		8AB76EF4157ADE0806FA3B4A1549EAD2 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 089F6AB524459819BC6D982ABE7B7F87 /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919B72E0CE7743838A947288D10AAEA3 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D62A1CD73E312C67174EEAE773C69799 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A96B98AD78AAD881AB6389B1368405 /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = A18092CF6A7E74841578F11A0F23BB15 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		97AD6F24F3B06BD613C6208F2184E74A /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD5811603FD49FED835B235A52A8F8A9 /* MaterialIcons-Regular.ttf */; };
+		99957B690912720394FD9EA8E64221C5 /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71C813C7DD0B30B84ADC6F4A7BEC47 /* SwiftIconFont.swift */; };
+		A34A98DD62B110BD2DFAD832FE42DC45 /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4762E26F6E420860C1884CF075842 /* SwiftIconLabel.swift */; };
+		BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		BADEDF3F5C6B8ECA687B3061C65C7E5D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ACDAF0830F94BDA1BFA86AAA04CED17 /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB6309660473CE20E1F98165D2190D2 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E2170A1A01C14B8F2D773A0CA7AAC /* LGButton-dummy.m */; };
+		C16C9FFF0BBEF2523F89D5CEC3A51CA7 /* FontIon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F5855BFFE92DFBF915F4828801C79 /* FontIon.swift */; };
+		C3C830DA8E913ECBCF786ECB939918B2 /* FSCalendarSeparatorDecorationView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8649E7E4D6A33D0B4939D3C417639C5 /* FSCalendarSeparatorDecorationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C476BDEFC2C6E6CC23C0613BC70FC1B3 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D745AAF27CD258CC04E1049173599628 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D192D52340F6B27DA840BE2FA9F49EE9 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4527B86B9579CCC7F6731B97CF6E55BF /* FSCalendarTransitionCoordinator.m */; };
+		D7C5DEB56E431931836C74EA0446A3DA /* FontThemify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169892AFB54B5480EDB024A1D41E53BD /* FontThemify.swift */; };
+		DEA8746B8ACC9D6CE9EBDEA8F8CB2E27 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F35DA4B0951C9B5E60C52F9B70A4B8B9 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E04E162655F36D1EDAD8F58868BE3447 /* LGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD783762F3BEE6D4CF8344E5140A80 /* LGButton.swift */; };
+		E56AE3ED48D8E87D1CD9718291E0B5E5 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1947BA0644887B707AB5E49C623C8514 /* FSCalendarCollectionView.m */; };
+		E779E8CD5CA9C0B43728D066C6BC88D0 /* Pods-TrainingAndDiet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0E070246E5DF8FBBCB984502B594A4 /* Pods-TrainingAndDiet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E91AF13E55A770DBC6913F5D3A4D7731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		F2ED4AC1567C9E3D31486B3AB8B9E1CB /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5699C5BA6A39F767806CD08EFA2B3C33 /* octicons.ttf */; };
+		F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		FA0FB5AA52DE609FFCA1A84D791E37DC /* FontMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428C813F7AF3F59DC8EE52B7AD03D9CB /* FontMaterial.swift */; };
+		FDB26845AA353936661B049BA64ABD25 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E4A8CFC78A8E0C8FD3348B2EF0335B /* FSCalendarCalculator.m */; };
+		FFF8E80B6D3629DB84D475C728EFCA1D /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F16BB8EE241CBE5B7B3472C33A78829 /* FSCalendarHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		37A90B5CEA2F0CB23A65E753F39F5632 /* PBXContainerItemProxy */ = {
+		9202B35C8CD5182B5DD4D38830081C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+		BCABB0CE23529677CC89F8A91EFE312A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -45,48 +88,97 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003F5855BFFE92DFBF915F4828801C79 /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
+		0134F40F74E0D1C70DD899198DFB640A /* LGButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.release.xcconfig; sourceTree = "<group>"; };
+		04AD783762F3BEE6D4CF8344E5140A80 /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
+		089F6AB524459819BC6D982ABE7B7F87 /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
 		0A0E070246E5DF8FBBCB984502B594A4 /* Pods-TrainingAndDiet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrainingAndDiet-umbrella.h"; sourceTree = "<group>"; };
+		0AFF708E9D21B5A4B096083DF69CF6A5 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		0B435FFB226EBCE5BBB9C03749C7CC87 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
 		124DFDE99D5CB7A80547A0034DA16C97 /* Pods-TrainingAndDiet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrainingAndDiet-dummy.m"; sourceTree = "<group>"; };
-		15FB93FAE4DA44BE68098AB78204DE66 /* LGButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.release.xcconfig; sourceTree = "<group>"; };
-		1F0A488336FF126A324A37C67A092EB3 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
-		23C6247BD16DBAD5EC89116163EFE74C /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
-		25913690DAC475B37D706CBB01130EAB /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
-		29A5C10857AC89D6ABCE3E2D6D24DAF8 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
-		4904816F98B5C8B096F4A03AE2F1A071 /* FontMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMaterial.swift; path = LGButton/Classes/SwiftIconFont/FontMaterial.swift; sourceTree = "<group>"; };
-		52BEA02043D5B17C53C06223606AFAFC /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
+		15E4A8CFC78A8E0C8FD3348B2EF0335B /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		169892AFB54B5480EDB024A1D41E53BD /* FontThemify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontThemify.swift; path = LGButton/Classes/SwiftIconFont/FontThemify.swift; sourceTree = "<group>"; };
+		1947BA0644887B707AB5E49C623C8514 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		1B0EABBDA61C991BE9218D1C953084AC /* FontOct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOct.swift; path = LGButton/Classes/SwiftIconFont/FontOct.swift; sourceTree = "<group>"; };
+		1B79AF721A1A8C57B451CA9082C6AEB8 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		1B9D60233A192531D09B870FFD001A29 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = LGButton/Classes/SwiftIconFont/FontLoader.swift; sourceTree = "<group>"; };
+		1CE21844E8AFE2F9EB15398CA8A81580 /* LGButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGButton-Info.plist"; sourceTree = "<group>"; };
+		2723491E52C8B95F02A09B01BF3539C6 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		2C1807D5BA22320E78D0AD747C367243 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		378967C0E7933CF4A5AB71E89CB9139B /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		3D4577EC6AADC9E0302CD0BA932A469D /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		404BA11A898330EC3CECC834EBA13B03 /* LGButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.debug.xcconfig; sourceTree = "<group>"; };
+		404F0EB83163D7464BFBC039E1C0DAF1 /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
+		410A4159ABAD157C06F53CB276C3591B /* FontOpenic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOpenic.swift; path = LGButton/Classes/SwiftIconFont/FontOpenic.swift; sourceTree = "<group>"; };
+		41941377FE38F60D9393D06BC0CF0163 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		428C813F7AF3F59DC8EE52B7AD03D9CB /* FontMaterial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMaterial.swift; path = LGButton/Classes/SwiftIconFont/FontMaterial.swift; sourceTree = "<group>"; };
+		4527B86B9579CCC7F6731B97CF6E55BF /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		494E2B0DBACE4EFC909DB1C13D9DF1C0 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		4ACDAF0830F94BDA1BFA86AAA04CED17 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E9F7F9E58138B09BC7EF0B94AE78317 /* FSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		505E05AB6197D53D7AAC21CDE6BFB30C /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		5657B465F91B52EA2D5C76303110FEAC /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		5699C5BA6A39F767806CD08EFA2B3C33 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
 		597D906FA7CAF5E768043B850D7E9437 /* Pods-TrainingAndDiet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrainingAndDiet.release.xcconfig"; sourceTree = "<group>"; };
-		5CA141D1F064A320E34D1DAA818787A5 /* LGButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGButton.swift; path = LGButton/Classes/LGButton.swift; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78BCF6138F17B6B8563F296484E55127 /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
-		7DBF80E3539F7FB60745CA4577FACBD9 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
-		90A275B3A285F477A135778BD185B9D6 /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
-		90F659AA112ACEE8DB189C4BA369B56B /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "LGButton/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		5C2A0324BFDAF55A26DE9858ED43AD66 /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-umbrella.h"; sourceTree = "<group>"; };
+		667475256064A8843B5DB2E3CCF86B33 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		6C2E2170A1A01C14B8F2D773A0CA7AAC /* LGButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGButton-dummy.m"; sourceTree = "<group>"; };
+		705093B639A77D6655321B03D3991214 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = LGButton/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		7F71C813C7DD0B30B84ADC6F4A7BEC47 /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
+		847A193F27678E84DBC667A5A981C25B /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "LGButton/Resources/map-icons.ttf"; sourceTree = "<group>"; };
+		853AD2A14214E47FCE5CF9429844DA42 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		8713BEC22DCB772BDF578C7A1F2F2D86 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93346C62F9BE7F2EB842CD9D5CFD2B62 /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9688A3D15358CFFC345494C3125D8D64 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = LGButton/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0C87AF22E4D7F5F40D7EE2FEA5BD640 /* FontOpenic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOpenic.swift; path = LGButton/Classes/SwiftIconFont/FontOpenic.swift; sourceTree = "<group>"; };
-		A4C6C0EAD85E3BBD1A8E4D519109F090 /* FontOct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontOct.swift; path = LGButton/Classes/SwiftIconFont/FontOct.swift; sourceTree = "<group>"; };
-		A5A8D78095FAD13600E3392AAA3FEAE6 /* FontThemify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontThemify.swift; path = LGButton/Classes/SwiftIconFont/FontThemify.swift; sourceTree = "<group>"; };
+		9F16BB8EE241CBE5B7B3472C33A78829 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A18092CF6A7E74841578F11A0F23BB15 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		A45C0F2B9E21EF811D9677E160568032 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		A66C40FE52312A99083E3E814770909B /* FSCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.release.xcconfig; sourceTree = "<group>"; };
 		A9538D0A57659DA141251782A4B09F13 /* Pods-TrainingAndDiet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrainingAndDiet-Info.plist"; sourceTree = "<group>"; };
-		AB19C5A267935408AE327BBC08BEA817 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
-		AB728B89E474B00E040071D645C3A3ED /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		AB021E6DDECBA8983D01A88E85901FED /* FSCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCalendar-Info.plist"; sourceTree = "<group>"; };
+		B14AE18FF94ABDF17917AC994C5A2C2A /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
 		BB574FC9F822EB0C7991F0A3084CC17D /* Pods_TrainingAndDiet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrainingAndDiet.framework; path = "Pods-TrainingAndDiet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8D99879FFB4BCF583C2E010E7CE4B4 /* Pods-TrainingAndDiet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrainingAndDiet-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BEB5730D0C9DB3D9997CC93D0C703557 /* LGButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGButton.framework; path = LGButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF17DC7C8ABB65E809591ADE9F9AC783 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		BFE978D0DE0EABC983571C65C0EBE0AF /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
+		C119CC856E065E495E6643CF7152D380 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		C3239A56ABDDA9964544B4242DD99E70 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
 		C38BB4F1BAB126B0D8BDB9EA7B2CE57F /* Pods-TrainingAndDiet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrainingAndDiet-acknowledgements.plist"; sourceTree = "<group>"; };
+		C46B944CC27A33A1A233F8E6D0DA945F /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
 		C7B536B12CF029EAC4DD6E6C5730C985 /* Pods-TrainingAndDiet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrainingAndDiet.debug.xcconfig"; sourceTree = "<group>"; };
+		D12E9E129D249F5F42723FAF61FCB98E /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
 		D1ECB4AD049F76644B132613ACBDA194 /* Pods-TrainingAndDiet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrainingAndDiet-frameworks.sh"; sourceTree = "<group>"; };
-		D2EF47E6D7656F4D640839100AA599BA /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconFont.swift; sourceTree = "<group>"; };
-		DAD8F359391573D6549D92B67E1B49E3 /* LGButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.debug.xcconfig; sourceTree = "<group>"; };
-		DAF7D16F6B20905B8A556D339F1D7592 /* LGButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGButton-Info.plist"; sourceTree = "<group>"; };
-		E07E88A6155BDB925A9652B2664F974E /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGButton.modulemap; sourceTree = "<group>"; };
-		E5AD8BAB3D5090AC4A3796F50EB03261 /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
-		EC5B33CD47CFD0B9A002283ACE031E6B /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
+		D62A1CD73E312C67174EEAE773C69799 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		D745AAF27CD258CC04E1049173599628 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		D8649E7E4D6A33D0B4939D3C417639C5 /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		DBC59452074EF1435FCF320FDCEF59EF /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
+		E09FF03FEADC4F8A4CF508BEA44850D5 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
+		E762AAB5606B2A8C4A4C58CEE1C9F152 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		EB002C97000C745EC762327337D9AE3D /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarSeparatorDecorationView.m; path = FSCalendar/FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		EFDBF865F7CD9C79A038067B4B0FEDD7 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
 		F0364D7639CAC496FFCC468C3AC46071 /* Pods-TrainingAndDiet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrainingAndDiet.modulemap"; sourceTree = "<group>"; };
-		FB93E2303A4534C18998BCE625B5C3EE /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-umbrella.h"; sourceTree = "<group>"; };
-		FC3F9D4C8D16BB4E89EAB8C267B92982 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		F35DA4B0951C9B5E60C52F9B70A4B8B9 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		F6D8D669FAA88BE821FCE6EB6F0C0748 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		FD401F9506159F9A6423607EC1BE3529 /* LGButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGButton.modulemap; sourceTree = "<group>"; };
+		FD5811603FD49FED835B235A52A8F8A9 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "LGButton/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		FD8E39DFDC0FDA23E5FE397ECD29BF06 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		FDA4762E26F6E420860C1884CF075842 /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0FAE7EA9A5606EB375709DACA62F516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CAA9FB98D7399C4E7078D3BC1DB71A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9930667B52F75058AF846EB602EE2FFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,17 +187,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7A4BE7FA2D6932777E20D23B40D7889 /* Frameworks */ = {
+		B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3ADF3685DFE93F545B8D50BC7F9112 /* Foundation.framework in Frameworks */,
+				F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */,
+				BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */,
+				93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		12B4BD42954806BFCE70F512B75C9EBE /* Pods-TrainingAndDiet */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,109 +233,184 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3FC3F085341B48FE10054D37377EF310 /* LGButton */ = {
+		3AA19604B166BE0E1E1547CB6DFCD1DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF17DC7C8ABB65E809591ADE9F9AC783 /* FontAwesome.swift */,
-				E5AD8BAB3D5090AC4A3796F50EB03261 /* FontIon.swift */,
-				29A5C10857AC89D6ABCE3E2D6D24DAF8 /* FontLoader.swift */,
-				90A275B3A285F477A135778BD185B9D6 /* FontMap.swift */,
-				4904816F98B5C8B096F4A03AE2F1A071 /* FontMaterial.swift */,
-				A4C6C0EAD85E3BBD1A8E4D519109F090 /* FontOct.swift */,
-				A0C87AF22E4D7F5F40D7EE2FEA5BD640 /* FontOpenic.swift */,
-				A5A8D78095FAD13600E3392AAA3FEAE6 /* FontThemify.swift */,
-				5CA141D1F064A320E34D1DAA818787A5 /* LGButton.swift */,
-				D2EF47E6D7656F4D640839100AA599BA /* SwiftIconFont.swift */,
-				AB19C5A267935408AE327BBC08BEA817 /* SwiftIconLabel.swift */,
-				EF19BF38D9A211EC6C758A4F0A1180C3 /* Resources */,
-				E9E1FA25813D46EECCCE0A632D92C6EE /* Support Files */,
-			);
-			name = LGButton;
-			path = LGButton;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9E961AF06C5B5D900BDD491FBB4610E0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
 				BEB5730D0C9DB3D9997CC93D0C703557 /* LGButton.framework */,
 				BB574FC9F822EB0C7991F0A3084CC17D /* Pods_TrainingAndDiet.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB40F9572D97EEA172B42068CBBBB8D6 /* Pods */ = {
+		4B6CCD5648E8649D54436D250472233F /* LGButton */ = {
 			isa = PBXGroup;
 			children = (
-				3FC3F085341B48FE10054D37377EF310 /* LGButton */,
+				E09FF03FEADC4F8A4CF508BEA44850D5 /* FontAwesome.swift */,
+				003F5855BFFE92DFBF915F4828801C79 /* FontIon.swift */,
+				1B9D60233A192531D09B870FFD001A29 /* FontLoader.swift */,
+				404F0EB83163D7464BFBC039E1C0DAF1 /* FontMap.swift */,
+				428C813F7AF3F59DC8EE52B7AD03D9CB /* FontMaterial.swift */,
+				1B0EABBDA61C991BE9218D1C953084AC /* FontOct.swift */,
+				410A4159ABAD157C06F53CB276C3591B /* FontOpenic.swift */,
+				169892AFB54B5480EDB024A1D41E53BD /* FontThemify.swift */,
+				04AD783762F3BEE6D4CF8344E5140A80 /* LGButton.swift */,
+				7F71C813C7DD0B30B84ADC6F4A7BEC47 /* SwiftIconFont.swift */,
+				FDA4762E26F6E420860C1884CF075842 /* SwiftIconLabel.swift */,
+				DDB0966C78F18F312E7DA513657C5F19 /* Resources */,
+				FA524D1E43CB285F2344C6F1F6FA06F2 /* Support Files */,
+			);
+			name = LGButton;
+			path = LGButton;
+			sourceTree = "<group>";
+		};
+		B9B9ED681E759CB0B32CD3B4FAA18A94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC60F797FE1F84A84D6207ABB4059F36 /* FSCalendar */,
+				4B6CCD5648E8649D54436D250472233F /* LGButton */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC60F797FE1F84A84D6207ABB4059F36 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				FD8E39DFDC0FDA23E5FE397ECD29BF06 /* FSCalendar.h */,
+				0AFF708E9D21B5A4B096083DF69CF6A5 /* FSCalendar.m */,
+				667475256064A8843B5DB2E3CCF86B33 /* FSCalendarAppearance.h */,
+				C3239A56ABDDA9964544B4242DD99E70 /* FSCalendarAppearance.m */,
+				8713BEC22DCB772BDF578C7A1F2F2D86 /* FSCalendarCalculator.h */,
+				15E4A8CFC78A8E0C8FD3348B2EF0335B /* FSCalendarCalculator.m */,
+				D745AAF27CD258CC04E1049173599628 /* FSCalendarCell.h */,
+				F6D8D669FAA88BE821FCE6EB6F0C0748 /* FSCalendarCell.m */,
+				F35DA4B0951C9B5E60C52F9B70A4B8B9 /* FSCalendarCollectionView.h */,
+				1947BA0644887B707AB5E49C623C8514 /* FSCalendarCollectionView.m */,
+				A45C0F2B9E21EF811D9677E160568032 /* FSCalendarCollectionViewLayout.h */,
+				2C1807D5BA22320E78D0AD747C367243 /* FSCalendarCollectionViewLayout.m */,
+				EFDBF865F7CD9C79A038067B4B0FEDD7 /* FSCalendarConstants.h */,
+				3D4577EC6AADC9E0302CD0BA932A469D /* FSCalendarConstants.m */,
+				E762AAB5606B2A8C4A4C58CEE1C9F152 /* FSCalendarDelegationFactory.h */,
+				853AD2A14214E47FCE5CF9429844DA42 /* FSCalendarDelegationFactory.m */,
+				41941377FE38F60D9393D06BC0CF0163 /* FSCalendarDelegationProxy.h */,
+				5657B465F91B52EA2D5C76303110FEAC /* FSCalendarDelegationProxy.m */,
+				D62A1CD73E312C67174EEAE773C69799 /* FSCalendarDynamicHeader.h */,
+				C46B944CC27A33A1A233F8E6D0DA945F /* FSCalendarExtensions.h */,
+				1B79AF721A1A8C57B451CA9082C6AEB8 /* FSCalendarExtensions.m */,
+				4ACDAF0830F94BDA1BFA86AAA04CED17 /* FSCalendarHeaderView.h */,
+				9F16BB8EE241CBE5B7B3472C33A78829 /* FSCalendarHeaderView.m */,
+				D8649E7E4D6A33D0B4939D3C417639C5 /* FSCalendarSeparatorDecorationView.h */,
+				EB002C97000C745EC762327337D9AE3D /* FSCalendarSeparatorDecorationView.m */,
+				0B435FFB226EBCE5BBB9C03749C7CC87 /* FSCalendarStickyHeader.h */,
+				505E05AB6197D53D7AAC21CDE6BFB30C /* FSCalendarStickyHeader.m */,
+				494E2B0DBACE4EFC909DB1C13D9DF1C0 /* FSCalendarTransitionCoordinator.h */,
+				4527B86B9579CCC7F6731B97CF6E55BF /* FSCalendarTransitionCoordinator.m */,
+				A18092CF6A7E74841578F11A0F23BB15 /* FSCalendarWeekdayView.h */,
+				2723491E52C8B95F02A09B01BF3539C6 /* FSCalendarWeekdayView.m */,
+				BF88B2A778011C481A10766E6F4180E3 /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		BF88B2A778011C481A10766E6F4180E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B14AE18FF94ABDF17917AC994C5A2C2A /* FSCalendar.modulemap */,
+				D12E9E129D249F5F42723FAF61FCB98E /* FSCalendar-dummy.m */,
+				AB021E6DDECBA8983D01A88E85901FED /* FSCalendar-Info.plist */,
+				C119CC856E065E495E6643CF7152D380 /* FSCalendar-prefix.pch */,
+				089F6AB524459819BC6D982ABE7B7F87 /* FSCalendar-umbrella.h */,
+				4E9F7F9E58138B09BC7EF0B94AE78317 /* FSCalendar.debug.xcconfig */,
+				A66C40FE52312A99083E3E814770909B /* FSCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AB40F9572D97EEA172B42068CBBBB8D6 /* Pods */,
-				9E961AF06C5B5D900BDD491FBB4610E0 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				B9B9ED681E759CB0B32CD3B4FAA18A94 /* Pods */,
+				3AA19604B166BE0E1E1547CB6DFCD1DE /* Products */,
 				2CD7F25DCC8D62564AAE265BADA869B7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DDB0966C78F18F312E7DA513657C5F19 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				9688A3D15358CFFC345494C3125D8D64 /* FontAwesome.ttf */,
+				705093B639A77D6655321B03D3991214 /* Ionicons.ttf */,
+				93346C62F9BE7F2EB842CD9D5CFD2B62 /* LGButton.xib */,
+				847A193F27678E84DBC667A5A981C25B /* map-icons.ttf */,
+				FD5811603FD49FED835B235A52A8F8A9 /* MaterialIcons-Regular.ttf */,
+				5699C5BA6A39F767806CD08EFA2B3C33 /* octicons.ttf */,
+				378967C0E7933CF4A5AB71E89CB9139B /* open-iconic.ttf */,
+				BFE978D0DE0EABC983571C65C0EBE0AF /* themify.ttf */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		E9E1FA25813D46EECCCE0A632D92C6EE /* Support Files */ = {
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E07E88A6155BDB925A9652B2664F974E /* LGButton.modulemap */,
-				78BCF6138F17B6B8563F296484E55127 /* LGButton-dummy.m */,
-				DAF7D16F6B20905B8A556D339F1D7592 /* LGButton-Info.plist */,
-				EC5B33CD47CFD0B9A002283ACE031E6B /* LGButton-prefix.pch */,
-				FB93E2303A4534C18998BCE625B5C3EE /* LGButton-umbrella.h */,
-				DAD8F359391573D6549D92B67E1B49E3 /* LGButton.debug.xcconfig */,
-				15FB93FAE4DA44BE68098AB78204DE66 /* LGButton.release.xcconfig */,
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA524D1E43CB285F2344C6F1F6FA06F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD401F9506159F9A6423607EC1BE3529 /* LGButton.modulemap */,
+				6C2E2170A1A01C14B8F2D773A0CA7AAC /* LGButton-dummy.m */,
+				1CE21844E8AFE2F9EB15398CA8A81580 /* LGButton-Info.plist */,
+				DBC59452074EF1435FCF320FDCEF59EF /* LGButton-prefix.pch */,
+				5C2A0324BFDAF55A26DE9858ED43AD66 /* LGButton-umbrella.h */,
+				404BA11A898330EC3CECC834EBA13B03 /* LGButton.debug.xcconfig */,
+				0134F40F74E0D1C70DD899198DFB640A /* LGButton.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LGButton";
 			sourceTree = "<group>";
 		};
-		EF19BF38D9A211EC6C758A4F0A1180C3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7DBF80E3539F7FB60745CA4577FACBD9 /* FontAwesome.ttf */,
-				1F0A488336FF126A324A37C67A092EB3 /* Ionicons.ttf */,
-				52BEA02043D5B17C53C06223606AFAFC /* LGButton.xib */,
-				25913690DAC475B37D706CBB01130EAB /* map-icons.ttf */,
-				FC3F9D4C8D16BB4E89EAB8C267B92982 /* MaterialIcons-Regular.ttf */,
-				23C6247BD16DBAD5EC89116163EFE74C /* octicons.ttf */,
-				90F659AA112ACEE8DB189C4BA369B56B /* open-iconic.ttf */,
-				AB728B89E474B00E040071D645C3A3ED /* themify.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		73360E62AC1CD3BE36FC99B1A5CBD0E6 /* Headers */ = {
+		002DB9D4C4C763C56C2143DA57B19DC0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE1BAA8FD4038977D94FC57F62F508B /* Pods-TrainingAndDiet-umbrella.h in Headers */,
+				E779E8CD5CA9C0B43728D066C6BC88D0 /* Pods-TrainingAndDiet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61A031D87FA293F87D12AFEEAD385CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB76EF4157ADE0806FA3B4A1549EAD2 /* FSCalendar-umbrella.h in Headers */,
+				0EDCAFA93DA0E7D98A2CF2386FEAA550 /* FSCalendar.h in Headers */,
+				58AD6758D9237AFCBAE75CF5AA275C47 /* FSCalendarAppearance.h in Headers */,
+				4B06E7A9994CCDB40333001E83F1FD79 /* FSCalendarCalculator.h in Headers */,
+				C476BDEFC2C6E6CC23C0613BC70FC1B3 /* FSCalendarCell.h in Headers */,
+				DEA8746B8ACC9D6CE9EBDEA8F8CB2E27 /* FSCalendarCollectionView.h in Headers */,
+				52565719316CADB05B7C8FA79964519A /* FSCalendarCollectionViewLayout.h in Headers */,
+				6CF04FDA8240D858280268329C2674E9 /* FSCalendarConstants.h in Headers */,
+				1ED6A018A50C929244C03FC6A46670F8 /* FSCalendarDelegationFactory.h in Headers */,
+				0C880D762097C192F231E5560AF4EE29 /* FSCalendarDelegationProxy.h in Headers */,
+				919B72E0CE7743838A947288D10AAEA3 /* FSCalendarDynamicHeader.h in Headers */,
+				0E4A225B2E9192B1B7C8DFB85B4303AF /* FSCalendarExtensions.h in Headers */,
+				BADEDF3F5C6B8ECA687B3061C65C7E5D /* FSCalendarHeaderView.h in Headers */,
+				C3C830DA8E913ECBCF786ECB939918B2 /* FSCalendarSeparatorDecorationView.h in Headers */,
+				0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */,
+				4B11C48CCA7FD866A774B0E49FB595DA /* FSCalendarTransitionCoordinator.h in Headers */,
+				91A96B98AD78AAD881AB6389B1368405 /* FSCalendarWeekdayView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +425,38 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		23091203FC075F706FD8A399FFA17FB0 /* Pods-TrainingAndDiet */ = {
+		13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E7591917605C1681C52F7D4B0C242AE /* Build configuration list for PBXNativeTarget "Pods-TrainingAndDiet" */;
+			buildConfigurationList = 1747C1FC0D7AED6F717CE32ACF418CF5 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
 			buildPhases = (
-				73360E62AC1CD3BE36FC99B1A5CBD0E6 /* Headers */,
-				CB85C43D388BBB9A52DB84C637D2BB76 /* Sources */,
-				C7A4BE7FA2D6932777E20D23B40D7889 /* Frameworks */,
-				AFB04ABAAB27C824A2226B087240AF4A /* Resources */,
+				A61A031D87FA293F87D12AFEEAD385CC /* Headers */,
+				7CA9E2A18C014A20CD8A14FD9AFD84EB /* Sources */,
+				B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */,
+				F55CA98E8C93B232101DADF83D8625F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C2B03BBA5D009AE6E0A77A85D582A8E /* PBXTargetDependency */,
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23091203FC075F706FD8A399FFA17FB0 /* Pods-TrainingAndDiet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86897EEE8375A5787E574C44229D2ED0 /* Build configuration list for PBXNativeTarget "Pods-TrainingAndDiet" */;
+			buildPhases = (
+				002DB9D4C4C763C56C2143DA57B19DC0 /* Headers */,
+				E424B9797274E3A5C3E8545409E4817F /* Sources */,
+				0FAE7EA9A5606EB375709DACA62F516E /* Frameworks */,
+				F96D37CF9B7C685ACD7F3E23239A7CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B5F553671F2DBE15F68953B13C8D38B /* PBXTargetDependency */,
+				8A0ED874428F251F700B58F7A22033BC /* PBXTargetDependency */,
 			);
 			name = "Pods-TrainingAndDiet";
 			productName = "Pods-TrainingAndDiet";
@@ -295,7 +491,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -303,10 +499,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9E961AF06C5B5D900BDD491FBB4610E0 /* Products */;
+			productRefGroup = 3AA19604B166BE0E1E1547CB6DFCD1DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
 				FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */,
 				23091203FC075F706FD8A399FFA17FB0 /* Pods-TrainingAndDiet */,
 			);
@@ -329,7 +526,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFB04ABAAB27C824A2226B087240AF4A /* Resources */ = {
+		F55CA98E8C93B232101DADF83D8625F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96D37CF9B7C685ACD7F3E23239A7CEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,27 +562,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB85C43D388BBB9A52DB84C637D2BB76 /* Sources */ = {
+		7CA9E2A18C014A20CD8A14FD9AFD84EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C31810069844CE4B90F03EDFF927207 /* Pods-TrainingAndDiet-dummy.m in Sources */,
+				2126BAE2A3A69461E8B00562CFF6D67C /* FSCalendar-dummy.m in Sources */,
+				7EAEA451E04E5E96AFE6D1B63313F624 /* FSCalendar.m in Sources */,
+				8633C154CEC62F5ECAE687CC7ED8067E /* FSCalendarAppearance.m in Sources */,
+				FDB26845AA353936661B049BA64ABD25 /* FSCalendarCalculator.m in Sources */,
+				4C79C31591A80E7209E52F0928F7546C /* FSCalendarCell.m in Sources */,
+				E56AE3ED48D8E87D1CD9718291E0B5E5 /* FSCalendarCollectionView.m in Sources */,
+				487467099AB8229395A1A005DC6AD4F4 /* FSCalendarCollectionViewLayout.m in Sources */,
+				2E5EC07CFD18A132E57569D00117C703 /* FSCalendarConstants.m in Sources */,
+				083B18F49C35728E9A7B828E73DF2EB8 /* FSCalendarDelegationFactory.m in Sources */,
+				48DC50A48CEC3AEC56CB6C3144EF4D47 /* FSCalendarDelegationProxy.m in Sources */,
+				1BDE0FED974714A835CB89AD1062FF0D /* FSCalendarExtensions.m in Sources */,
+				FFF8E80B6D3629DB84D475C728EFCA1D /* FSCalendarHeaderView.m in Sources */,
+				0F2DEB38F550FF5F643CD48BE324B009 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				1E0C257A13260508F9FC03D637764614 /* FSCalendarStickyHeader.m in Sources */,
+				D192D52340F6B27DA840BE2FA9F49EE9 /* FSCalendarTransitionCoordinator.m in Sources */,
+				3F0F6CEFD0801BEA64D1A265AE92FC05 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E424B9797274E3A5C3E8545409E4817F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A083C8EB248CD014761924480821862 /* Pods-TrainingAndDiet-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C2B03BBA5D009AE6E0A77A85D582A8E /* PBXTargetDependency */ = {
+		7B5F553671F2DBE15F68953B13C8D38B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = 9202B35C8CD5182B5DD4D38830081C0C /* PBXContainerItemProxy */;
+		};
+		8A0ED874428F251F700B58F7A22033BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LGButton;
 			target = FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */;
-			targetProxy = 37A90B5CEA2F0CB23A65E753F39F5632 /* PBXContainerItemProxy */;
+			targetProxy = BCABB0CE23529677CC89F8A91EFE312A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09546540C6D5CE9C2BB1B07002B9F9C8 /* Release */ = {
+		01C46FB40FD6750B637A8977313D93F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 597D906FA7CAF5E768043B850D7E9437 /* Pods-TrainingAndDiet.release.xcconfig */;
 			buildSettings = {
@@ -416,9 +649,46 @@
 			};
 			name = Release;
 		};
+		576CF4D04CA626C4453BE3E60ACFC59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B536B12CF029EAC4DD6E6C5730C985 /* Pods-TrainingAndDiet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrainingAndDiet/Pods-TrainingAndDiet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrainingAndDiet/Pods-TrainingAndDiet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5E95739894BD432B2E51490EAF0ECDA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15FB93FAE4DA44BE68098AB78204DE66 /* LGButton.release.xcconfig */;
+			baseConfigurationReference = 0134F40F74E0D1C70DD899198DFB640A /* LGButton.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -581,7 +851,7 @@
 		};
 		9A034D4355A2938F4C0A0CA11FEA2470 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAD8F359391573D6549D92B67E1B49E3 /* LGButton.debug.xcconfig */;
+			baseConfigurationReference = 404BA11A898330EC3CECC834EBA13B03 /* LGButton.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -613,12 +883,10 @@
 			};
 			name = Debug;
 		};
-		EED85F68EAA92C3C75BD20E210D34F9A /* Debug */ = {
+		C9D8A777643BBEC6139AA8A963349D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B536B12CF029EAC4DD6E6C5730C985 /* Pods-TrainingAndDiet.debug.xcconfig */;
+			baseConfigurationReference = 4E9F7F9E58138B09BC7EF0B94AE78317 /* FSCalendar.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -627,32 +895,75 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrainingAndDiet/Pods-TrainingAndDiet-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrainingAndDiet/Pods-TrainingAndDiet.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		C9FE9FE12E4D706F3987DC0AFBD314FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66C40FE52312A99083E3E814770909B /* FSCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1747C1FC0D7AED6F717CE32ACF418CF5 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D8A777643BBEC6139AA8A963349D4C /* Debug */,
+				C9FE9FE12E4D706F3987DC0AFBD314FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -662,11 +973,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E7591917605C1681C52F7D4B0C242AE /* Build configuration list for PBXNativeTarget "Pods-TrainingAndDiet" */ = {
+		86897EEE8375A5787E574C44229D2ED0 /* Build configuration list for PBXNativeTarget "Pods-TrainingAndDiet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EED85F68EAA92C3C75BD20E210D34F9A /* Debug */,
-				09546540C6D5CE9C2BB1B07002B9F9C8 /* Release */,
+				576CF4D04CA626C4453BE3E60ACFC59E /* Debug */,
+				01C46FB40FD6750B637A8977313D93F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
