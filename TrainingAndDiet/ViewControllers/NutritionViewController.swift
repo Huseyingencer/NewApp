@@ -14,11 +14,13 @@ class NutritionViewController: UIViewController, FSCalendarDelegate {
     //uygulamaya giriş yapan userı uygulamanın ileri evrelerine aktarabiliyoruz.
     var user : User?
     var formatter = DateFormatter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.calendar.scope = .week
         calendar.locale = Locale.init(identifier: "tr")
         calendar.delegate = self
+        
         
         // Do any additional setup after loading the view.
     }
@@ -44,4 +46,6 @@ class NutritionViewController: UIViewController, FSCalendarDelegate {
     @IBAction func setDiet(_ sender: LGButton) {
         self.performSegue(withIdentifier: "toSetDiet", sender: sender)
     }
+    
+    
 }

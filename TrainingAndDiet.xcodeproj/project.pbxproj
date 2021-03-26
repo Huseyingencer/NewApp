@@ -13,6 +13,7 @@
 		93488A4125FA58CB00BA142C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93488A4025FA58CB00BA142C /* User.swift */; };
 		93488A4525FA663800BA142C /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93488A4425FA663800BA142C /* SignUp.storyboard */; };
 		93488A4825FA667600BA142C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93488A4725FA667600BA142C /* AlertViewController.swift */; };
+		934985E5260C8A3F00A1A24E /* SetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934985E4260C8A3F00A1A24E /* SetDetailViewController.swift */; };
 		935041BB25FA1BA80032555F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935041BA25FA1BA80032555F /* AppDelegate.swift */; };
 		935041BD25FA1BA80032555F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935041BC25FA1BA80032555F /* SceneDelegate.swift */; };
 		935041BF25FA1BA80032555F /* OpenPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935041BE25FA1BA80032555F /* OpenPageController.swift */; };
@@ -23,6 +24,13 @@
 		9352C88E2603A63E00378D56 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9352C88D2603A63E00378D56 /* ColorExtension.swift */; };
 		9388CB9225FF521E004C9B2D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB9125FF521E004C9B2D /* HomePageViewController.swift */; };
 		9388CB9525FF6B42004C9B2D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388CB9425FF6B42004C9B2D /* CustomTabBarController.swift */; };
+		93ABA8CB2608882D00F3546A /* Repast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABA8CA2608882D00F3546A /* Repast.swift */; };
+		93ABA8CE2608886700F3546A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABA8CD2608886700F3546A /* Meal.swift */; };
+		93ABA8D126088DA800F3546A /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABA8D026088DA800F3546A /* Nutrition.swift */; };
+		93ABA8D626088E6700F3546A /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABA8D526088E6700F3546A /* Exercise.swift */; };
+		93ABA8D926088F8800F3546A /* WorkOutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABA8D826088F8800F3546A /* WorkOutType.swift */; };
+		93ABA8DD2608901500F3546A /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABA8DC2608901500F3546A /* Training.swift */; };
+		93ABA8E02608906400F3546A /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABA8DF2608906400F3546A /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,7 @@
 		93488A4025FA58CB00BA142C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		93488A4425FA663800BA142C /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		93488A4725FA667600BA142C /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		934985E4260C8A3F00A1A24E /* SetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDetailViewController.swift; sourceTree = "<group>"; };
 		935041B725FA1BA80032555F /* TrainingAndDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingAndDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935041BA25FA1BA80032555F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		935041BC25FA1BA80032555F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +53,13 @@
 		9352C88D2603A63E00378D56 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		9388CB9125FF521E004C9B2D /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		9388CB9425FF6B42004C9B2D /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		93ABA8CA2608882D00F3546A /* Repast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repast.swift; sourceTree = "<group>"; };
+		93ABA8CD2608886700F3546A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		93ABA8D026088DA800F3546A /* Nutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
+		93ABA8D526088E6700F3546A /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		93ABA8D826088F8800F3546A /* WorkOutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutType.swift; sourceTree = "<group>"; };
+		93ABA8DC2608901500F3546A /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+		93ABA8DF2608906400F3546A /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		AAA74B1EFB5B50A8DFBD5228 /* Pods_TrainingAndDiet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingAndDiet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06AE03D2818654AADDB2F0C /* Pods-TrainingAndDiet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingAndDiet.debug.xcconfig"; path = "Target Support Files/Pods-TrainingAndDiet/Pods-TrainingAndDiet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				93488A4025FA58CB00BA142C /* User.swift */,
+				93ABA8DF2608906400F3546A /* Day.swift */,
+				93ABA8D426088E1400F3546A /* TrainingModels */,
+				93ABA8D326088DFF00F3546A /* Nutrition Models */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -86,6 +105,7 @@
 				934146FC25FF7EB8009F7862 /* TrainingViewController.swift */,
 				934146FF25FF7EE4009F7862 /* NutritionViewController.swift */,
 				9352C88926034D9400378D56 /* SetDietOrTraining.swift */,
+				934985E4260C8A3F00A1A24E /* SetDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -131,6 +151,26 @@
 				9352C88D2603A63E00378D56 /* ColorExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93ABA8D326088DFF00F3546A /* Nutrition Models */ = {
+			isa = PBXGroup;
+			children = (
+				93ABA8D026088DA800F3546A /* Nutrition.swift */,
+				93ABA8CA2608882D00F3546A /* Repast.swift */,
+				93ABA8CD2608886700F3546A /* Meal.swift */,
+			);
+			path = "Nutrition Models";
+			sourceTree = "<group>";
+		};
+		93ABA8D426088E1400F3546A /* TrainingModels */ = {
+			isa = PBXGroup;
+			children = (
+				93ABA8D526088E6700F3546A /* Exercise.swift */,
+				93ABA8D826088F8800F3546A /* WorkOutType.swift */,
+				93ABA8DC2608901500F3546A /* Training.swift */,
+			);
+			path = TrainingModels;
 			sourceTree = "<group>";
 		};
 		D4FBF854A2CE395A42102731 /* Pods */ = {
@@ -257,17 +297,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93ABA8DD2608901500F3546A /* Training.swift in Sources */,
 				93488A4125FA58CB00BA142C /* User.swift in Sources */,
 				9388CB9525FF6B42004C9B2D /* CustomTabBarController.swift in Sources */,
+				93ABA8D126088DA800F3546A /* Nutrition.swift in Sources */,
+				93ABA8CE2608886700F3546A /* Meal.swift in Sources */,
 				934146FD25FF7EB8009F7862 /* TrainingViewController.swift in Sources */,
+				93ABA8D626088E6700F3546A /* Exercise.swift in Sources */,
 				9341470025FF7EE4009F7862 /* NutritionViewController.swift in Sources */,
 				935041BF25FA1BA80032555F /* OpenPageController.swift in Sources */,
 				9388CB9225FF521E004C9B2D /* HomePageViewController.swift in Sources */,
+				934985E5260C8A3F00A1A24E /* SetDetailViewController.swift in Sources */,
+				93ABA8D926088F8800F3546A /* WorkOutType.swift in Sources */,
 				935041BB25FA1BA80032555F /* AppDelegate.swift in Sources */,
 				9352C88A26034D9400378D56 /* SetDietOrTraining.swift in Sources */,
 				93488A4825FA667600BA142C /* AlertViewController.swift in Sources */,
+				93ABA8E02608906400F3546A /* Day.swift in Sources */,
 				9352C88E2603A63E00378D56 /* ColorExtension.swift in Sources */,
 				935041BD25FA1BA80032555F /* SceneDelegate.swift in Sources */,
+				93ABA8CB2608882D00F3546A /* Repast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
