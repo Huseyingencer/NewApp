@@ -9,6 +9,7 @@ import UIKit
 protocol SetDetailViewControllerDelegate {
     func saveSuccesfull()
     func backButton()
+    func sendDataBack(meal : Meal?, exercise : Exercise?)
 }
 
 class SetDetailViewController: UIViewController, UITextViewDelegate {
@@ -39,6 +40,7 @@ class SetDetailViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var textField6: UITextField!
     @IBOutlet weak var label7: UILabel! // serving_portion bilgilendirmesi için.
     @IBOutlet weak var textField7: UITextField!
+    
     @IBOutlet weak var noteText: UITextView!
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var saveButton: UIButton!
@@ -66,10 +68,9 @@ class SetDetailViewController: UIViewController, UITextViewDelegate {
         else {
             if let exercise : Exercise = decodeIncomingDict(data: data){
                 print(exercise.name!)
-                
                 (propertyList, valueList) = getMirror(anyInstance: exercise)
-                let labelList = [label1!,label2!,label3!,label4!]
-                let textFieldList = [textField1!,textField2!,textField3!,textField4!]
+                let labelList = [label1!,label2!,label3!,label4!,label5!]
+                let textFieldList = [textField1!,textField2!,textField3!,textField4!,textField5!]
                 genericTextFieldList = textFieldList
                 setUIComponents(presenter: self.presenter,labelList: labelList,textFieldList: textFieldList,propertyList: propertyList, valueList: valueList)
             }
@@ -121,8 +122,7 @@ class SetDetailViewController: UIViewController, UITextViewDelegate {
     func setUIComponents(presenter : String,labelList : [UILabel], textFieldList : [UITextField], propertyList : [String], valueList : [Any]){
         
         if(presenter == "TrainingViewController"){
-            label5.isHidden = true
-            textField5.isHidden = true
+            
             label6.isHidden = true
             textField6.isHidden = true
             label7.isHidden = true
@@ -133,10 +133,11 @@ class SetDetailViewController: UIViewController, UITextViewDelegate {
             saveButton.backgroundColor = UIColor.init(hexString: "94FF8E")
         }
             for i in 0...labelList.count-1{
+                
                 labelList[i].text = propertyList[i+1]
                 if(i != labelList.count-1){
                     if(valueList[i+1] is String){
-                        print("string")
+                        
                         textFieldList[i].text = valueList[i+1] as? String
                 }
                     else if(valueList[i+1] is Int){
@@ -162,6 +163,9 @@ class SetDetailViewController: UIViewController, UITextViewDelegate {
         for i in mirror.children{
             propertyList.append(i.label!)
             valueList.append(i.value)
+            if(i.label! == "energy"){
+                print(i.value,"energy")
+            }
         }
         return (propertyList, valueList)
     }
@@ -183,13 +187,15 @@ class SetDetailViewController: UIViewController, UITextViewDelegate {
         
         if(self.presenter == "NutritionViewController"){
             decodedMeal = Meal(name: textField1.text!, energy_rate: Int(textField2.text!)!, protein: Int(textField3.text!)!, fat: Int(textField4.text!)!, serving: Int(textField5.text!)!, serving_portion: Int(textField7.text!)!, repast_name: textField6.text!, comment: noteText.text!)
-            print(decodedMeal!.name, decodedMeal!.energy_rate)
+            print(decodedMeal!.name, decodedMeal!.energy_rate,decodedMeal?.serving)
             self.delegate.saveSuccesfull()
+            self.delegate.sendDataBack(meal: decodedMeal, exercise: nil)
         }
         else{
-            decodedExercise = Exercise(name: textField1.text!, repeat_count: Int(textField2.text!)!, set_count: Int(textField3.text!)!, workout_type: textField4.text!, comment: noteText.text!)
-            print(decodedExercise!.name, decodedExercise!.repeat_count)
+            decodedExercise = Exercise(name: textField1.text!, repeat_count: Int(textField2.text!)!, set_count: Int(textField3.text!)!,energy : Int(textField4.text!)!, workout_type: textField5.text!, comment: noteText.text!)
+            print(decodedExercise!.name, decodedExercise!.repeat_count,decodedExercise!.energy)
             self.delegate.saveSuccesfull()
+            self.delegate.sendDataBack(meal: nil, exercise: decodedExercise)
             
         }
     }

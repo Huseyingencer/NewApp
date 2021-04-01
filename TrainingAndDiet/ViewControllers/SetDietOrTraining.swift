@@ -1,7 +1,23 @@
 import UIKit
 import LGButton
 
+protocol SetDietOrTrainingDelegate{
+    func sendDataBack(mealList : [Meal]?, exerciseList : [Exercise]?)
+}
 class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDelegate,SetDetailViewControllerDelegate {
+    //setdetailviewcontrollerdelegate
+    func sendDataBack(meal: Meal?, exercise: Exercise?) {
+        if self.presenter == "NutritionViewController"{
+            self.mealList.append(meal!)
+            for i in self.mealList{
+                print("meal : ", i.name!,"listedeki eleman sayısı: ", mealList.count)
+            }
+        }
+        else{
+            self.exerciseList.append(exercise!)
+        }
+    }
+    
     //Detail delegate
     func saveSuccesfull() {
         dismiss(animated: true, completion: {
@@ -135,6 +151,7 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
     var bisiklet : [Exercise] = []
     var detailInfo : Bool?
     
+    var delegate : SetDietOrTrainingDelegate?
     var presenter : String?
     var popOverCounter = 0
     var makeEasierNutritionDict : [String : [Meal]] = [:]
@@ -142,6 +159,12 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
     //Dictleri userdefaultsa eklemek için
     let encoder = JSONEncoder()
     let defaults = UserDefaults.standard
+    var repast : Repast?
+    var repastList : [Repast]?
+    var workOutType : WorkOutType?
+    var trainingList : [WorkOutType]?
+    var mealList : [Meal] = []
+    var exerciseList : [Exercise] = []
     
     //------------------------------------------------------------------
     override func viewDidLoad() {
@@ -159,8 +182,9 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
             titleView.backgroundColor = UIColor(hexString: "94FF8E")
             saveButton.bgColor = UIColor.init(hexString: "94FF8E")
             genericNutritionList()
-            
+            print(self.presenter)
         }
+        
         
         
         
@@ -183,6 +207,13 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
         }
     }
     @IBAction func saveButtonTapped(_ sender: LGButton) {
+        if(self.presenter == "TrainingViewController"){
+            
+            self.delegate?.sendDataBack(mealList: nil, exerciseList: exerciseList)
+        }
+        else{
+            self.delegate?.sendDataBack(mealList: self.mealList, exerciseList: nil)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -209,7 +240,7 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
         
         let tavuk = Meal(name: "Tavuk", energy_rate: 400, protein: 26, fat: 20, repast_name: "Ogle Aksam")
         tavuk.serving = 1
-        tavuk.serving = 100
+        tavuk.serving_portion = 100
         self.ogleList.append(tavuk)
         let salata = Meal(name: "Salata", energy_rate: 150, protein: 10, fat: 15, repast_name: "Ogle Aksam")
         salata.serving = 1
@@ -230,32 +261,30 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
         makeEasierNutritionDict["Akşam Yemeği"] = aksamList
         let encodedmakeEasierNutritionDict = try? encoder.encode(makeEasierNutritionDict)
         defaults.set(encodedmakeEasierNutritionDict, forKey: presenter!)
-        for i in 0...kahvaltıList.count-1{
-            print(kahvaltıList[i].energy_rate as Int)
-        }
+        
         
     }
     func genericTrainingList(){
-        let A = Exercise(name: "A")
-        let B = Exercise(name: "B")
+        let A = Exercise(name: "A",100)
+        let B = Exercise(name: "B",200)
         onKolList.append(A); onKolList.append(B)
-        let C = Exercise(name: "C")
+        let C = Exercise(name: "C",200)
         arkaKolList.append(C)
-        let D = Exercise(name: "D")
-        let E = Exercise(name: "E")
-        let F = Exercise(name: "F")
+        let D = Exercise(name: "D",200)
+        let E = Exercise(name: "E",200)
+        let F = Exercise(name: "F",200)
         sırtList.append(D); sırtList.append(E); sırtList.append(F)
-        let H = Exercise(name: "H")
+        let H = Exercise(name: "H",200)
         bacakList.append(H)
-        let j = Exercise(name: "J")
-        let K = Exercise(name: "K")
+        let j = Exercise(name: "J",200)
+        let K = Exercise(name: "K",200)
         gogusList.append(j); gogusList.append(K)
-        let hızlıkosu = Exercise(name: "Hızlı Koşu")
-        let yavaskosu = Exercise(name: "Yavaş Koşu")
+        let hızlıkosu = Exercise(name: "Hızlı Koşu",200)
+        let yavaskosu = Exercise(name: "Yavaş Koşu",200)
         kosuList.append(hızlıkosu); kosuList.append(yavaskosu)
-        let yuruyus = Exercise(name: "Yürüyüş")
+        let yuruyus = Exercise(name: "Yürüyüş",200)
         yuruyusList.append(yuruyus)
-        let bisikletex = Exercise(name: "Bisiklet")
+        let bisikletex = Exercise(name: "Bisiklet",200)
         bisiklet.append(bisikletex)
         makeEasierTrainingDict["Ön Kol Antrenmanı"] = onKolList
         makeEasierTrainingDict["Arka Kol Antrenmanı"] = arkaKolList

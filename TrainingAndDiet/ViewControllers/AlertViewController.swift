@@ -56,17 +56,17 @@ class AlertViewController: UIViewController {
             return
         }
         let defaults = UserDefaults.standard
-        let user = User(username: usernameTextField.text!, password: passwordTextField.text!,mail : mailTextField.text!)
+        let user = User(username: usernameTextField.text!, password: passwordTextField.text!,mail : mailTextField.text!,day : [])
         //bu array cihaz önbelleğindeki userArrayi getiriyor.Böylece birden fazla user ve gün, user instance içinde saklanabilir halde. Uygulama ilk defa da açılıyor olabilir. if let ve else cümlecikleri bunun için, dikkat edilmeli.
         if let userArray : Data = defaults.object(forKey: "userArray") as? Data{
         //burası yeni alınan userı bir satır yukarıdaki arrayin içine atmak için. decode edilmeli data değil user atılacak çünkü.
-        var decodedUserArray = NSKeyedUnarchiver.unarchiveObject(with: userArray) as! [User]
+            var decodedUserArray = NSKeyedUnarchiver.unarchiveObject(with: userArray) as! [User]
         //pushlandı
-        decodedUserArray.append(user)
+            decodedUserArray.append(user)
         //yeni elemana sahip array yeniden encode edildi.
-        let encodedUserArray : Data = try! NSKeyedArchiver.archivedData(withRootObject: decodedUserArray, requiringSecureCoding: false)
+            let encodedUserArray : Data = try! NSKeyedArchiver.archivedData(withRootObject: decodedUserArray, requiringSecureCoding: false)
         //defaults içine atıldı.
-        defaults.set(encodedUserArray, forKey: "userArray")
+            defaults.set(encodedUserArray, forKey: "userArray")
         }
         //eğer uygulamaya ilk defa kayıt olunuyorsa burası çalışacak
         else {
