@@ -55,11 +55,15 @@ class OpenPageController: UIViewController, AlertViewControllerDelegate {
         var alert_flag = 0
         for i in 0...decodedUserArray.count - 1{
             if(decodedUserArray[i].username == usernameTextField.text! && decodedUserArray[i].password == passwordTextField.text!){
+                decodedUserArray[i].enter_counter += 1
                 self.user = decodedUserArray[i]
+                print(decodedUserArray[i],"giriş sayfasında")
+                let encodedUserArray : Data = try! NSKeyedArchiver.archivedData(withRootObject: decodedUserArray, requiringSecureCoding: false)
+            //defaults içine atıldı.
+                defaults.set(encodedUserArray, forKey: "userArray")
                 self.performSegue(withIdentifier: "toHomePage", sender: LGButton.self)
                 break
             }
-            
             else {
                 alert_flag+=1
                 if(alert_flag == decodedUserArray.count){

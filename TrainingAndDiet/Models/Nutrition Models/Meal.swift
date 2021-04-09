@@ -19,6 +19,7 @@ public class Meal : Codable{
     var serving_portion : Int!
     var repast_name : String?
     var comment : String?
+    var is_select : Bool? = false
     
     init(name : String, energy_rate : Int, protein : Int, fat : Int, repast_name : String) {
         Meal.class_id += 1
@@ -45,8 +46,4 @@ public class Meal : Codable{
             self.comment = ""
         }
     }
-   
-    
-    
-    
 }

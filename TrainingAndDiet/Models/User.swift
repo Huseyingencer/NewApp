@@ -14,7 +14,6 @@ public class User : NSObject, NSCoding
         coder.encode(self.username, forKey: "username")
         coder.encode(self.password, forKey: "password")
         coder.encode(self.mail,forKey: "mail")
-        coder.encode(self.day, forKey: "day")
     }
     
     public required init?(coder decoder: NSCoder) {
@@ -24,9 +23,6 @@ public class User : NSObject, NSCoding
                 self.password = password
                 if let mail = decoder.decodeObject(forKey: "mail") as? String{
                     self.mail = mail
-                    if let day = decoder.decodeObject(forKey: "day") as? [Day]{
-                        self.day = day
-                    }
                 }
             }
         }
@@ -34,7 +30,7 @@ public class User : NSObject, NSCoding
     }
     
    
-    
+    public var enter_counter : Int! = 0
     public var username : String?
     public var password : String?
     public var mail : String?

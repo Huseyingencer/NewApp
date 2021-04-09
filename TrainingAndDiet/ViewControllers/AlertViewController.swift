@@ -56,8 +56,12 @@ class AlertViewController: UIViewController {
             return
         }
         let defaults = UserDefaults.standard
-        let user = User(username: usernameTextField.text!, password: passwordTextField.text!,mail : mailTextField.text!,day : [])
+        let user = User(username: usernameTextField.text!, password: passwordTextField.text!,mail : mailTextField.text!)
         //bu array cihaz önbelleğindeki userArrayi getiriyor.Böylece birden fazla user ve gün, user instance içinde saklanabilir halde. Uygulama ilk defa da açılıyor olabilir. if let ve else cümlecikleri bunun için, dikkat edilmeli.
+        let userDayList : [Day] = []
+        let encoder = JSONEncoder()
+        let encodedUserDayList = try? encoder.encode(userDayList)
+        defaults.set(encodedUserDayList, forKey: user.username!)
         if let userArray : Data = defaults.object(forKey: "userArray") as? Data{
         //burası yeni alınan userı bir satır yukarıdaki arrayin içine atmak için. decode edilmeli data değil user atılacak çünkü.
             var decodedUserArray = NSKeyedUnarchiver.unarchiveObject(with: userArray) as! [User]

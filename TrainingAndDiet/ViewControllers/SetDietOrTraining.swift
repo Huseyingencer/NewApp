@@ -21,7 +21,7 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
     //Detail delegate
     func saveSuccesfull() {
         dismiss(animated: true, completion: {
-            let alert = UIAlertController(title: "", message: "Seçiminiz Başarıyla Kaydedildi", preferredStyle: .alert)
+            let alert = UIAlertController(title: "", message: "Seçiminiz Başarıyla Kaydedildi", preferredStyle: .actionSheet)
             self.present(alert, animated: true, completion: nil)
             let duration = DispatchTime.now()+1
             DispatchQueue.main.asyncAfter(deadline: duration){
@@ -45,7 +45,6 @@ class SetDietOrTraining: UIViewController, UITableViewDataSource, UITableViewDel
     func backButton() {
         dismiss(animated: true, completion: nil)
         self.popOverSelected.deselectRow(at: popOverSelected.indexPathForSelectedRow!, animated: true)
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

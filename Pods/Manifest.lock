@@ -1,20 +1,26 @@
 PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
   - FSCalendar (2.8.2)
   - LGButton (1.1.6)
 
 DEPENDENCIES:
+  - Charts
   - FSCalendar
   - LGButton
 
 SPEC REPOS:
   trunk:
+    - Charts
     - FSCalendar
     - LGButton
 
 SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   LGButton: 9f0a7f9d3030e3f504108342f6b66d64a429371b
 
-PODFILE CHECKSUM: 7ff1c98ee765dc159c73f7ca7f4ff6f8955f142a
+PODFILE CHECKSUM: 8b2fa7e703f31f0ea485af6eb067da2edf1ca9f9
 
 COCOAPODS: 1.10.0

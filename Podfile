@@ -8,5 +8,6 @@ target 'TrainingAndDiet' do
   # Pods for TrainingAndDiet
 	pod 'LGButton'
   pod 'FSCalendar'
+  pod 'Charts'
  
 end

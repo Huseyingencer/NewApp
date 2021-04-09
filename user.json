@@ -1,0 +1,75 @@
+{
+	"username": "Ahmet",
+	"days": [{
+		"date": "01 Ocak 2021",
+		"antremanları": [{
+				"antreman_adi": "Önkol",
+				"hareketler": [{
+						"haraket_id": 1,
+						"haraket_adi": "Özel isişmleri",
+						"tekrar_sayısı": 13,
+						"set_sayisi": 3
+					},
+					{
+						"haraket_id": 2,
+						"haraket_adi": "Özel isişmleri 2",
+						"tekrar_sayısı": 15,
+						"set_sayisi": 2
+					},
+					{
+						"haraket_id": 3,
+						"haraket_adi": "Özel isişmleri 3",
+						"tekrar_sayısı": 9,
+						"set_sayisi": 5
+					}
+				]
+			},
+			{
+				"antreman_adi": "Göğüs",
+				"hareketler": [{
+						"haraket_id": 1,
+						"haraket_adi": "Özel isişmleri",
+						"tekrar_sayısı": 13,
+						"set_sayisi": 3
+					},
+					{
+						"haraket_id": 2,
+						"haraket_adi": "Özel isişmleri 2",
+						"tekrar_sayısı": 15,
+						"set_sayisi": 2
+					},
+					{
+						"haraket_id": 3,
+						"haraket_adi": "Özel isişmleri 3",
+						"tekrar_sayısı": 9,
+						"set_sayisi": 5
+					}
+				]
+			}
+		],
+		"beslenme": [{
+				"öğün_adi": "Sabah",
+				"yemekler": [{
+					"yemek_id": 1,
+					"yemek_adi": "Yulaf Ezmesi",
+					"enerji_orani": 1000,
+					"protein_orani": 75,
+					"yağ_oranı": 44,
+					"porsiyon_sayısı": 1.0
+				}]
+			},
+			{
+				"öğün_adi": "Akşam",
+				"yemekler": [{
+					"yemek_id": 2,
+					"yemek_adi": "Muz",
+					"enerji_orani": 500,
+					"protein_orani": 50,
+					"yağ_oranı": 10,
+					"porsiyon_sayısı": 1.0
+				}]
+			}
+		]
+
+	}]
+}
